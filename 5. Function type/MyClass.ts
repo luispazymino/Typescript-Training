@@ -1,8 +1,9 @@
 
-class MyClass {
+class MyClase {
     messaje: string = "Hola desde mi clase";
 
     //Funcion en formato arrow
+    //Sirve para que javascript reconozca el this además se lo debe usar cuando se hace eventos
     propertyMethod = (): void => {
         console.log("Hola desde formato arrow");
         alert(this.messaje);
@@ -15,12 +16,12 @@ class MyClass {
 }
 
 //Llamada a la clase
-var myObject = new MyClass();
+var myObject = new MyClase();
 var api = { //Para las llamadas desde html
     propertyMethod(){
         myObject.propertyMethod.call(this);
     },
-    prototypeMethod(){
+    publicMethod(){
         myObject.prototypeMethod.call(this);
     }
 }
