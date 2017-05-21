@@ -12,5 +12,9 @@ function getAreaf(shape:string, width:number, height:number, show:boolean): numb
     return area;
 }
 
+//Definición de array 
+var lang: Array<string> = ["php","java","css"];
+alert(lang); 
+
 getAreaf("square", 12, 34, true);
 //getArea("square","34",45,true);  //Error por tipado. Javascript no hay error pero typescript SI

@@ -3,4 +3,4 @@ function greeting(name: String) {
     el.innerHTML = "Hello " + name + "!";
 }
 
-greeting("World.");
+greeting("Luis.");
