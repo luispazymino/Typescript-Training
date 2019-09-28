@@ -1,4 +1,4 @@
 # Typescript-Training
-Ejemplos de typescript. Se ha utilizado "Visual Studio Code" como editor.
+Conceptos de typescript. Se ha utilizado "Visual Studio Code" como editor.
 
-Se incluye presentación con conceptos de TypeScript
+Código realizado en base a conceptos del lenguaje Typescript. Se incluye presentación con conceptos de TypeScript
